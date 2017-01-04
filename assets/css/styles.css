@@ -12,6 +12,7 @@ Version: 2.0
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 @import url(http://fonts.googleapis.com/css?family=Merriweather:400,300,400italic,300italic,700,700italic);
 @import url(http://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 /* TIPOGRAFIA / GERAL */
 p {
@@ -354,9 +355,13 @@ ul li {
   position: relative; }
   .siscom .down-arrow a {
     color: #fff; }
+
   .siscom h1 {
     color: #fff;
-    margin-bottom: 40px; }
+    margin-bottom: 40px;
+      font-weight: 900;
+    font-family: 'Montserrat';}
+
   .siscom p.intro {
     color: #fff;
     font-size: 20px;
