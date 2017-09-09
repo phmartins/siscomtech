@@ -28,7 +28,7 @@ if($_POST) {
     if(isEmail($clientEmail) && $subject != '' && $message != '') {
         // Enviar e-mail
 		$headers = "From: " . $clientEmail . " <" . $clientEmail . ">" . "\r\n" . "Reply-To: " . $clientEmail;
-		mail($emailTo, $subject . " (bootstrap contact form)", $message, $headers);
+		mail($emailTo, $subject . " (E-mail do site - Siscomtech)", $message, $headers);
     }
 
     echo json_encode($array);

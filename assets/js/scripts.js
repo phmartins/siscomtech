@@ -1,7 +1,7 @@
-/* SCRIPTS - SICOM TECH
+/* SCRIPTS - SICOMTECH
    VERSÃO: 2.0
    AUTOR: Phillipe Martins
-   AGENCIA: YEAH! - COMUNICAÇÃO DIGITAL
+   AGENCIA: Think! - Agência Digital
 */
 
 $(document).ready(function() {
@@ -106,4 +106,14 @@ $(document).ready(function() {
 
 	});
 
+});
+
+/***************** SLIDE PRODUTOS ******************/
+// When the DOM is ready, run this function
+$(document).ready(function() {
+  //Set the carousel options
+  $('#quote-carousel').carousel({
+    pause: true,
+    interval: 4000,
+  });
 });

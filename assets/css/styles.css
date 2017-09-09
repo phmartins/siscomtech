@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
 /*
-Theme Name: SISCOM TECH - Sistemas Comerciais
+Theme Name: SISCOMTECH - Sistemas Comerciais
 Theme URI: http://www.siscomtech.com.br
 Author: Phillipe Martins
-Agency: YEAH! - Comunicação Digital
+Agency: Think! - Agência Digital
 Phone: (88) 9.8102-4079
 Version: 2.0
 */
@@ -60,7 +60,7 @@ h5 {
   border: solid 2px;
   border-radius: 40px;
   display: inline-block;
-  border-color: #fff; }
+  border-color: #00a4b6; }
 
 .btn-white:hover, .btn-white:focus {
   color: #00a4b6;
@@ -308,7 +308,7 @@ ul li {
   width: 35px;
   height: 3px;
   border-radius: 1px;
-  background: #fff;
+  background: #00a4b7;
   cursor: pointer; }
 
 .nav-toggle span:before {
@@ -342,7 +342,7 @@ ul li {
   position: absolute;
   height: 26px;
   right: 10px;
-  top: 48px;
+  top: 35px !important;
   visibility: hidden;
   -webkit-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out; }
@@ -356,8 +356,15 @@ ul li {
   .siscom .down-arrow a {
     color: #fff; }
 
+.otica {
+  min-height: 750px;
+  background: url("../img/siscom-otica.jpg") center center;
+  background-size: cover;
+  position: relative; }
+  .siscom .down-arrow a {
+    color: #fff; }
   .siscom h1 {
-    color: #fff;
+    color: #00BCD4;
     margin-bottom: 40px;
       font-weight: 900;
     font-family: 'Montserrat';}
@@ -371,20 +378,36 @@ ul li {
     padding-top: 26%; }
 
 .navigation {
+  background-color: #f5f5f5;
   -webkit-transition: all 300ms ease-in-out;
           transition: all 300ms ease-in-out;
   position: fixed;
   width: 100%;
-  z-index: 999; }
+  z-index: 999; 
+}
 
 .fixed {
   position: fixed;
-  background-color: #232731;
+  background-color: #f5f5f5;
   z-index: 999;
   width: 100%; }
 
+.fixed ul.primary-nav li a{
+    color: #00688f;
+  }
+
+.fixed ul.primary-nav li a:hover{
+    color: #00a4b6;
+  }
+.fixed header ul.member-actions li a{
+  color: #00688f;
+}
+
+.header ul.member-actions li a:hover{
+  color: #00a4b6;
+}
 header {
-  padding: 50px 0;
+  padding: 37px !important;
   border-bottom: solid 1px rgba(255, 255, 255, 0.2);
   position: relative;
   width: 1170px;
@@ -407,7 +430,7 @@ header {
     header ul.primary-nav li {
       display: inline; }
       header ul.primary-nav li a {
-        color: #fff;
+        color: #00698f;
         padding-right: 25px; }
         header ul.primary-nav li a:hover {
           color: #00a4b6; }
@@ -416,15 +439,15 @@ header {
   header ul.member-actions li {
     display: inline; }
     header ul.member-actions li a {
-      color: #fff; }
+      color: #00a4b6; }
       header ul.member-actions li a:hover {
-        color: #00a4b6; }
+        color: #00698f; }
   header .header-nav {
     display: inline-block; }
   header .member-actions {
     position: absolute;
     right: 0;
-    top: 41px;
+    top: 35px !important;
     -webkit-transition: all 300ms ease-in-out;
             transition: all 300ms ease-in-out; }
 
@@ -528,7 +551,7 @@ header {
     width: 916px;
     height: 540px;
     background: url("../img/macbook-pro.png") no-repeat center center;
-    top: 114px;
+    top: 50px;
     z-index: 4;
     left: 50%; }
 
@@ -563,7 +586,7 @@ header {
         -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
 
-/* jobs-INTRO */
+/* JOBS-INTRO */
 .jobs-intro {
   padding-top: 160px;
   margin-bottom: -120px; }
@@ -629,6 +652,10 @@ header {
   .jobs figcaption a.jobs-post-title:hover, .jobs figcaption a.jobs-post-title:focus {
     color: #3D4351; }
 
+ .col-02{
+  padding: 15px
+ }
+
 /* TECNOLOGIAS */
 .tech-slider {
   background: url("../img/tech-bg.jpg") no-repeat center center;
@@ -643,7 +670,6 @@ header {
     border: solid 3px #fff;
     background-color: #fff; }
     .tech-slider .avatar img {
-      width: 82px;
       height: auto; }
   .tech-slider h2 {
     color: #fff;
@@ -657,6 +683,17 @@ header {
     letter-spacing: 2px; }
 
 /* FORMS GERAIS */
+
+h2.text-contato {
+  color: #0099b1;
+  font-size: 20px;
+}
+
+h4.text-footer{
+  font-size: 17px;
+  color: #fff;
+}
+
 .contato .contato-form .contato-btn {
   padding: 15px 0;
   border-radius: 3px;
@@ -1264,3 +1301,16 @@ footer {
 @-webkit-keyframes scroll { 1% {opacity: 1; top: 30%;} 20% {opacity: 1; top: 80%;} 60% {opacity: 0; top: 80%;} 100% {opacity: 0; top: 30%;} }
 @-moz-keyframes  scroll { 1% {opacity: 1; top: 30%;} 20% {opacity: 1; top: 80%;} 60% {opacity: 0; top: 80%;} 100% {opacity: 0; top: 30%;} }
 @keyframes  scroll { 1% {opacity: 1; top: 30%;} 20% {opacity: 1; top: 80%;} 60% {opacity: 0; top: 80%;} 100% {opacity: 0; top: 30%;} }
+
+
+.text-block ul li {
+    margin: 0 0 10px !important;
+    font-size: 18px !important;
+    line-height: 26px !important;
+    font-weight: 300 !important;
+    text-align: left !important;
+}
+
+.text-block ul {
+    list-style-type: none;
+}

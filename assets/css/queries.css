@@ -1,5 +1,16 @@
-/* VERSÃO RESPONSIVA */
+/* VERSÃO RESPONSIVA 
 
+   Theme Name: SISCOMTECH - Sistemas Comerciais
+   Theme URI: http://www.siscomtech.com.br
+   Author: Phillipe Martins
+   Agency: Think! - Agência Digital
+   Phone: (88) 9.8102-4079
+   Version: 2.0
+
+*/
+
+
+/* GERAL */
 @media screen and (max-width:1200px) {
 	header {
 		width: 90%;
@@ -102,14 +113,27 @@
 
 	nav ul.primary-nav li a {
 		padding-right: 0;
+		color: #fff
 	}
 
 	nav .member-actions {
 		position: static;
 		padding: 0;
 		text-align: center;
+		
 	}
 
+	header ul.member-actions li a{
+		color: #fff
+	}
+
+	.fixed ul.primary-nav li a{
+		color: #fff
+	}
+    
+    .fixed header ul.member-actions li a{
+    	color: #fff
+    }
 	nav ul.primary-nav li,
 	nav ul.member-actions li {
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -194,24 +218,24 @@
 		margin: 0;
 	}
 
-	.features {
+	.destaques {
 		padding-bottom: 0;
 	}
 
-	.features .device-showcase,
-	.features-extra .macbook-wrap {
+	.destaques .device-showcase,
+	.destaques-extra .macbook-wrap {
 		display: none;
 	}
 
-	.features .responsive-feature-img,
-	.features-extra .responsive-feature-img {
+	.destaques .responsive-feature-img,
+	.destaques-extra .responsive-feature-img {
 		display: block;
 		width: 85%;
 		margin: 15% auto 0;
 	}
 
-	.features .responsive-feature-img img,
-	.features-extra .responsive-feature-img img {
+	.destaques .responsive-feature-img img,
+	.destaques-extra .responsive-feature-img img {
 		width: 100%;
 	}
 
@@ -280,14 +304,14 @@
 		}
 
 		.siscom h1 {
-			font-size: 50px;
+			font-size: 45px;
 		}
 
 		.btn-margin-right {
 			margin-right: 0px;
 		}
 
-		.features .device-showcase-left {
+		.destaques .device-showcase-left {
 			position: absolute;
 			bottom: -392px;
 			left: 41%;
@@ -295,18 +319,18 @@
 			transform: translateX(-50%);
 		}
 
-		.features .ipad-wrap {
+		.destaques .ipad-wrap {
 			width: 706px;
 			height: 1002px;
-			background: url("../img/ipad-device.png") no-repeat center center;
+			background: url("../img/soft-siscom.png") no-repeat center center;
 			z-index: 1;
 			background-size: 40%;
 		}
 
-		.features .iphone-wrap {
+		.destaques .iphone-wrap {
 			width: 304px;
 			height: 617px;
-			background: url("../img/iphone6.png") no-repeat center center;
+			background: url("../img/logo-siscom.png") no-repeat center center;
 			position: absolute;
 			left: 350px;
 			bottom: 129px;
@@ -314,7 +338,7 @@
 			background-size: 40%;
 		}
 
-		.features {
+		.destaques {
 			padding-bottom: 0;
 		}
 

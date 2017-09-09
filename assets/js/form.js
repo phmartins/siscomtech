@@ -1,7 +1,7 @@
-/* FORM DE CONTATO - SICOM TECH
+/* FORM DE CONTATO - SICOMTECH
    VERSÃO: 2.0
    AUTOR: Phillipe Martins
-   AGENCIA: YEAH! - COMUNICAÇÃO DIGITAL
+   AGENCIA: Think! - Agência Digital
 */
 
 jQuery(document).ready(function() {
